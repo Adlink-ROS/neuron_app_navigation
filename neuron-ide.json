@@ -1,0 +1,27 @@
+{
+    "Info": {
+        "ros": "foxy",
+        "platform": [
+            "ROScube-I",
+            "ROScube-X",
+            "ROScube-starterkit"
+        ]
+    },
+    "Dependency": {
+        "cmd": [
+            "vcs import src < neuron-app.repos",
+            "rosdep update",
+            "rosdep install --from-paths src --ignore-src -r -y --rosdistro foxy"
+        ]
+    },
+    "Build": {
+        "cmd": [
+            "colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release"
+        ]
+    },
+    "Run": {
+        "cmd": [
+            "ros2 launch neuronbot2_bringup bringup.launch.py"
+        ]
+    }
+}

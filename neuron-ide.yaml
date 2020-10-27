@@ -1,8 +1,0 @@
-Dependency:
-    vcs import src < neuron-app.repos
-    rosdep update
-    rosdep install --from-paths src --ignore-src -r -y --rosdistro foxy
-Build:
-    colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
-Run:
-    ros2 launch neuronbot2_bringup bringup.launch.py
