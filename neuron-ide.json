@@ -20,5 +20,9 @@
             "gazebo": "ros2 launch neuronbot2_bringup bringup.launch.py",
             "neuronbot": "ros2 launch neuronbot2_gazebo neuronbot2_world.launch.py world_model:=mememan_world.model"
         }
+    },
+    "Environment": {
+        "hook": [
+        ]
     }
 }
