@@ -2,16 +2,12 @@ repositories:
   neuronbot2:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
-    version: foxy-devel
+    version: d6ca89318b378d9eed9880eca3774d1cf1d6643f
   rplidar_ros:
     type: git
     url: https://github.com/Adlink-ROS/rplidar_ros.git
-    version: foxy-devel
+    version: 3ab9a880e71b6ecaaeec8948c13881487500d3e7
   serial:
     type: git
     url: https://github.com/Adlink-ROS/serial.git
-    version: foxy-devel
-#  slam_gmapping:
-#    type: git
-#    url: https://github.com/Adlink-ROS/slam_gmapping
-#    version: foxy-devel
+    version: f7871723cd631072a5fda6289a8d689dfb53b57d
