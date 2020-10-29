@@ -11,7 +11,7 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/serial.git
     version: foxy-devel
-  slam_gmapping:
-    type: git
-    url: https://github.com/Adlink-ROS/slam_gmapping
-    version: foxy-devel
+#  slam_gmapping:
+#    type: git
+#    url: https://github.com/Adlink-ROS/slam_gmapping
+#    version: foxy-devel
