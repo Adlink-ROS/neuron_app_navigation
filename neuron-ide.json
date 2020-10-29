@@ -18,7 +18,7 @@
     "Run": {
         "cmd": {
             "gazebo": "ros2 launch napp_navigation gazebo_navigation.launch.py",
-            "neuronbot": "ros2 launch neuronbot2_bringup bringup.launch.py"
+            "neuronbot": "ros2 launch napp_navigation neuronbot_navigation.launch.py"
         }
     },
     "Environment": {
