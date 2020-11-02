@@ -6,7 +6,6 @@ from launch.actions import (IncludeLaunchDescription, GroupAction)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 
-import pdb
 def generate_launch_description():
     # Path
     nb2_launch_dir = os.path.join(get_package_share_directory('neuronbot2_bringup'), 'launch')
