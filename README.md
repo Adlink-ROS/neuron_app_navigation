@@ -12,7 +12,7 @@
 # Usage
 Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 
-1. Launch Navigation as well as Rviz while the Gazebo simulation is running. If you haven't finished SLAM to get the map files, no worries, you can use the default maps **mememan** we have built for you.
+1. Launch Navigation as well as Rviz with the Gazebo simulation. If you haven't finished SLAM to get the map files, no worries, you can use the default maps **mememan** we have built for you.
 
    ```
    ros2 launch napp_navigation gazebo_navigation.launch.py
