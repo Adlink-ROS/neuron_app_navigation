@@ -11,12 +11,12 @@
 
 # Usage
 Once users obtain the map, pgm file, and yaml file, navigation is good to go.
-1. Click application in Neuron App to open workspace. It will build the resource at first time it's opened.
+1. Click application in Neuron App to open workspace.**Click Navigation** It will build the resource at first time it's opened.
      ![](readme_resource/open_app.png)
    
 2-1. Click "packages" on the right side.
 
-2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_slam"
+2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_navigation"
      ![](readme_resource/click_resourse_nav.png)
      
 
@@ -54,7 +54,7 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 
 1. Click "Explorer" on the left side.
 2. Click "src" -> "napp_navigation" -> "launch" -> "gazebo_navigation.launch.py"
-3. Modify file name of map at default value in world model.
+3. Modify file directory of map at default value in map_path.
 
    ![](readme_resource/modify_map.png)
 
