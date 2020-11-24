@@ -20,16 +20,15 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
      ![](readme_resource/click_resourse_nav.png)
      
 
-***NOTE!!!    Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
+***NOTE!!! Following instruction would need : Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
 
    ![](readme_resource/launch_nav.png)
-1. Launch Navigation as well as Rviz with the Gazebo simulation. If you haven't finished SLAM to get the map files, no worries, you can use the default maps **mememan** we have built for you.
+3. Launch Navigation as well as Rviz with the Gazebo simulation. Launch gazebo_navigation.launch.py
 
-   ```
-   ros2 launch napp_navigation gazebo_navigation.launch.py
-   ```
+If you haven't finished SLAM to get the map files, no worries, you can use the default maps **mememan** we have built for you.
+
    ![](readme_resource/mememan_launch_nav.png)
-2. Set Estimation
+4. Set Estimation
 
 
    ![](readme_resource/2d_setestimate.png)
@@ -39,7 +38,7 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
    
 
    ![](readme_resource/nav_estimate.gif)
-3. Set Goal
+5. Set Goal
 
 
    ![](readme_resource/2d_nav_goal.png)
