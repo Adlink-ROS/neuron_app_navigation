@@ -10,11 +10,14 @@ def generate_launch_description():
     # Path
     nb2_launch_dir = os.path.join(get_package_share_directory('neuronbot2_bringup'), 'launch')
     nb2nav_launch_dir = os.path.join(get_package_share_directory('neuronbot2_nav'), 'launch')
-    nb2nav_map_dir = os.path.join(get_package_share_directory('neuronbot2_nav'), 'map')
+    your_map_path = '$HOME/neuron_app_slam/yourmap.yaml'
+
+    if not os.path.isfile(your_map_path):
+        raise RuntimeError('\x1b[0;37;41m'+'Please run Neuron APP SLAM to create your own map first.'+'\x1b[0m')
 
     # Parameters
     open_rviz = LaunchConfiguration('open_rviz', default='True')
-    map_path = LaunchConfiguration('map', default=nb2nav_map_dir+'/mememan.yaml')
+    map_path = LaunchConfiguration('map', default=your_map_path)
 
     neuron_app_bringup = GroupAction([
         IncludeLaunchDescription(
