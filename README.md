@@ -23,9 +23,10 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 ***NOTE!!! Following instruction would need : Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
 
    ![](readme_resource/launch_nav.png)
-3. Launch Navigation as well as Rviz with the Gazebo simulation. **Launch gazebo_navigation.launch.py**
+   
+3. Launch Navigation as well as Rviz with the Gazebo simulation. **Launch gazebo_navigation.launch.py** 
 
-   If you haven't finished SLAM to get the map files, no worries, you can use the default maps **mememan** we have built for you.
+    If you haven't finished SLAM to get the map files, no worries, you can use the default maps **mememan** we have built for you.
 
    ![](readme_resource/mememan_launch_nav.png)
 4. Set Estimation
@@ -58,3 +59,4 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
    ![](readme_resource/modify_map.png)
 
 
+4. Launch Navigation as well as Rviz with the Gazebo simulation. **Launch gazebo_navigation.launch.py** 
