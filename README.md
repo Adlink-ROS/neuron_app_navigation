@@ -17,7 +17,12 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 2-1. Click "packages" on the right side.
 
 2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_slam"
+     ![](readme_resource/click_resourse_nav.png)
+     
 
+***NOTE!!!    Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
+
+   ![](readme_resource/launch_nav.png)
 1. Launch Navigation as well as Rviz with the Gazebo simulation. If you haven't finished SLAM to get the map files, no worries, you can use the default maps **mememan** we have built for you.
 
    ```
