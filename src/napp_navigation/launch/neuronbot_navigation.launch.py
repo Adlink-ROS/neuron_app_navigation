@@ -5,12 +5,13 @@ from launch import LaunchDescription
 from launch.actions import (IncludeLaunchDescription, GroupAction)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
+from pathlib import Path
 
 def generate_launch_description():
     # Path
     nb2_launch_dir = os.path.join(get_package_share_directory('neuronbot2_bringup'), 'launch')
     nb2nav_launch_dir = os.path.join(get_package_share_directory('neuronbot2_nav'), 'launch')
-    your_map_path = '$HOME/neuron_app_slam/yourmap.yaml'
+    your_map_path = str(Path.home())+'/neuron_app_slam/yourmap.yaml'
 
     if not os.path.isfile(your_map_path):
         raise RuntimeError('\x1b[0;37;41m'+'Please run Neuron APP SLAM to create your own map first.'+'\x1b[0m')
