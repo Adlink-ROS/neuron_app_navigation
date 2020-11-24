@@ -49,3 +49,6 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
    
    ![](readme_resource/nav_set_goal.gif)
 
+## Navigation on custom map
+
+
