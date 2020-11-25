@@ -57,7 +57,11 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 ## Navigation on custom map
 
 1. Click "Explorer" on the left side.
+
 2. Click "src" -> "napp_navigation" -> "launch" -> "gazebo_navigation.launch.py"
+
 3. Modify file directory of map at default value in map_path.
 
    ![](readme_resource/modify_map.png)
+
+4. Follow step3 to step5 in quickstart.
