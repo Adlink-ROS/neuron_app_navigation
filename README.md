@@ -64,4 +64,4 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 
    ![](readme_resource/modify_map.png)
 
-4. Follow step3 to step5 in quickstart.
+4. Follow Step3 to Step5 in **Quickstart**.
