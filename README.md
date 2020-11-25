@@ -10,6 +10,9 @@
   - ROS 2 foxy
 
 # Usage
+
+## Quickstart
+
 Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 1. Click application in Neuron App to open workspace. **Click Navigation.**  It will build the resource at first time it's opened.
      ![](readme_resource/open_app.png)
@@ -24,9 +27,10 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 
    ![](readme_resource/launch_nav.png)
    
-3. Launch Navigation as well as Rviz with the Gazebo simulation. **Launch gazebo_navigation.launch.py** 
-
-    If you haven't finished SLAM to get the map files, no worries, you can use the default maps **mememan** we have built for you.
+3. Launch Navigation as well as Rviz, choose **ONE**  file to launch: 
+    * Simulation with the Gazebo. It will open with default mememan map: **Launch gazebo_inspection.launch.py**
+    
+    * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
    ![](readme_resource/mememan_launch_nav.png)
 4. Set Estimation
@@ -57,6 +61,3 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
 3. Modify file directory of map at default value in map_path.
 
    ![](readme_resource/modify_map.png)
-
-
-4. Launch Navigation as well as Rviz with the Gazebo simulation. **Launch gazebo_navigation.launch.py** 
