@@ -70,3 +70,8 @@ Once users obtain the map, pgm file, and yaml file, navigation is good to go.
    ![](readme_resource/modify_map.png)
 
 4. Follow Step3 to Step5 in **Quickstart**.
+
+# Troubleshooting
+
+If you face some problems while launching NeuronBot simulation, try to terminate the task and retry again.
+There might be some processes still running and cause the issue.
